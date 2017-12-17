@@ -93,7 +93,7 @@ body {
   @media only screen and (min-width: 992px) {
     #mainNav {
       border-bottom: 1px solid transparent;
-      background: transparent; }
+      background: #343a40; }
       #mainNav .navbar-brand {
         padding: 10px 20px;
         color: #fff; }
