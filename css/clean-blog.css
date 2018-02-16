@@ -119,6 +119,10 @@ body {
       width: 250px;
       padding: 0;
     } }
+
+  #mainNav.fixed-top .sidenav-toggler {
+    display: none;
+  }
   @media only screen and (min-width: 992px) {
     #mainNav {
       -webkit-transition: background-color 0.2s;
