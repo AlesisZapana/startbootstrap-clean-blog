@@ -85,6 +85,10 @@ body {
     padding: 13px;
     text-transform: uppercase;
     color: #343a40; }
+  #mainNav .navbar-sidenav {
+    font-weight: 800;
+    color: #343a40;
+  }
   #mainNav .navbar-nav > li.nav-item > a {
     font-size: 12px;
     font-weight: 700;
