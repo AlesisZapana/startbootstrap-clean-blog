@@ -116,8 +116,9 @@ body {
       -o-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
       -webkit-backface-visibility: hidden; }
-      #mainNav.is-fixed {
-        /* when the user scrolls down, we hide the header right above the viewport */
+    /* when the user scrolls down, we hide the header right above the viewport */  
+    /*#mainNav.is-fixed {
+        
         position: fixed;
         top: -67px;
         -webkit-transition: -webkit-transform 0.2s;
@@ -132,15 +133,16 @@ body {
         #mainNav.is-fixed .navbar-nav > li.nav-item > a {
           color: #212529; }
           #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-            color: #0085A1; }
-      #mainNav.is-visible {
-        /* if the user changes the scrolling direction, we show the header */
+            color: #0085A1; }*/
+     /* if the user changes the scrolling direction, we show the header */  
+    /*#mainNav.is-visible {
+       
         -webkit-transform: translate3d(0, 100%, 0);
         -moz-transform: translate3d(0, 100%, 0);
         -ms-transform: translate3d(0, 100%, 0);
         -o-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0); } }
-
+*/
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
